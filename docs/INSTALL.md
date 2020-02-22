@@ -1,4 +1,7 @@
-# F´ Quick Installation Guide
+---
+layout: default
+title: "F´ Installation Guide"
+---
 
 This installation guide is specifically designed to enable individual and researchers to get up and
 running with F´ quickly. This guide is not intended for large teams with specific content
@@ -13,11 +16,11 @@ VirtualBox [https://www.virtualbox.org/](https://www.virtualbox.org/).
 
 Requirements:
 
-1. Mac OSX or Linux Operating System
-2. CMake [https://cmake.org/download/](https://cmake.org/download/)
+1. Linux or Mac OS X operating system (or Windows Subsystem for Linux on Windows)
+2. CMake [https://cmake.org/download/](https://cmake.org/download/) available on the system path
 3. Bash or Bash compatible shell
 4. CLang or GCC compiler
-5. Python 3 and PIP [https://www.python.org/downloads/](https://www.python.org/downloads/) 
+5. Python 3 and PIP [https://www.python.org/downloads/](https://www.python.org/downloads/)
 6. Python Virtual Environment \* (pip install venv or pip install virtualenv)
 
 **Note:** it is possible to install and run F´ without a virtual environment, however; for
@@ -90,7 +93,7 @@ fprime-util install --jobs 32
 
 **Testing F´ GDS Installation Via Running HTML GUI**
 ```
-fprime-util -g html -d <path/to/fprime/checkout>/Ref
+fprime-gds -g html -d <path/to/fprime/checkout>/Ref
 ```
 **Note:** `Ref` should contain pre-built dictionaries and binaries for the user's system. This can
 be achieved by running the autocoder installation test (the user must have a working autocoder
